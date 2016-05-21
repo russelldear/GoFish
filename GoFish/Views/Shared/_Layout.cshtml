@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="icon" href="~/favicon.ico">
+</head>
+<body class="xui-body">
+    <header id="header"></header>
+    <header class="xui-pageheading">
+        <div class="xui-pageheading--content xui-pageheading--content-layout xui-page-width-standard">
+            <img src="~/icon.png" width="30" height="30"/> &nbsp;
+            <h1 class="xui-pageheading--title">GoFish</h1>
+            <b>Cross-flow search for Flowdock</b>
+        </div>
+    </header>
+    <main role="main" class="xui-page-width-standard">
+        
+        <div class="container body-content">
+            @RenderBody()
+            <hr />
+            <footer></footer>
+        </div>
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+
+        <script type="text/javascript" src="~/Scripts/tablesorter/jquery.tablesorter.min.js"></script>
+        <script type="text/javascript" src="~/Scripts/FlowdockSearch.js"></script>
+
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://edge.xero.com/style/xui/10.0.0/xui.min.css"/>
+        <link rel="stylesheet" href="https://edge.xero.com/business/common-ui/1.11.17/css/common.css"  />
+        <link href="~/Style/FlowdockSearch.css" rel="stylesheet" />
+    </main>
+</body>
+</html>

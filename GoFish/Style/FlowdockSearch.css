@@ -1,0 +1,68 @@
+﻿ .search-control {
+     height: 40px;
+     vertical-align: middle;
+ }
+
+ .search-control label {
+     margin-top: 7px;
+ }
+
+ .searchButton {
+     padding-top: 20px;
+ }
+
+ .header {
+     padding-right: 0;
+ }
+
+ .headerText {
+     padding: 0 0 0 10px;
+ }
+
+ .headerTextInner {
+     padding: 10px 0 10px 0;
+ }
+
+ .headerSortUp div.headerText,
+ .headerSortDown div.headerText {
+     background-color: lightgray;
+     padding-left: 10px;
+ }
+
+ .headerSortUp div.headerText {
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+ }
+
+ .headerSortDown div.headerText {
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+ }
+
+ .resultRow {
+     vertical-align: top;
+     padding-left: 10px;
+     height: 18px;
+     padding: 5px 0 5px 0;
+ }
+
+ .no-overflow {
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+ }
+
+ .col-1 {
+     width: 150px;
+ }
+
+ .col-2 {
+     width: 170px;
+ }
+
+ .col-3 {
+     width: 170px;
+ }
