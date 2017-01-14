@@ -29,6 +29,10 @@
             $("#searchButton").click();
         }
     });
+
+    $(".qm").click(function () {
+        $(".qText").toggle();
+    });
 });
 
 function Search() {

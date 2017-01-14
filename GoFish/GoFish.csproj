@@ -166,6 +166,9 @@
     <Content Include="Scripts\tablesorter\themes\green\style.css" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Style\FlowdockSearch.css" />
+    <Content Include="questionMark.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
