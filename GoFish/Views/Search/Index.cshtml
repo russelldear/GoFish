@@ -16,24 +16,12 @@
         <img class="qm" style="cursor: pointer;" src="questionMark.png" width="20" height="20" alt="Question" />
         <input id="apiKey" class="searchOnEnter" name="apiKey" type="text" style="width: 200px" />
         <a id="getToken" target="_blank" href="https://www.flowdock.com/account/tokens">Where do I get this?</a>
-        <span class="qText" style="width: 200px; display:none; font-size: 8pt;">
-            <br />
-            Your API key is retained in a cookie on your local computer, and is not stored anywhere on the server. 
-            Maybe don't use this on public computers? Or at least clear your cookies afterwards.
-            <br />
-        </span>
     </span>
     <span id="apiKeyDisplay">
         <label class="control-label" for="apiKey">Flowdock API Token</label>
         <img class="qm" style="cursor: pointer;" src="questionMark.png" width="20" height="20" alt="Question" />
         <label id="apiKeyLabel" style="width: 200px"></label>
         <a id="changeToken" href="#">Change</a>
-        <span class="qText" style="width: 200px; display:none; font-size: 8pt;">
-            <br />
-            Your API key is retained in a cookie on your local computer, and is not stored anywhere on the server.
-            Maybe don't use this on public computers? Or at least clear your cookies afterwards.
-            <br />
-        </span>
     </span>
 </div>
 <div class="col-md-5 search-control">
@@ -44,6 +32,12 @@
     <div class="col-md-2 search-control searchButton">
         <button id="searchButton" type="button" class="btn" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Searching">Search</button>
     </div>
+</div>
+<div class="qText col-md-12" style="display:none; font-size: 8pt; padding-top: 10px;">
+    <br />
+    Your API key is retained on your local computer, and is not stored anywhere on the server.
+    Maybe don't use this on public computers? Or at least clear your cookies afterwards.
+    <br />
 </div>
 
 <div id="resultsPanel" style="display:none">

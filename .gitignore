@@ -68,3 +68,4 @@ project/data/
 *.dll
 
 *packages/*
+/GoFish/.well-known/acme-challenge
